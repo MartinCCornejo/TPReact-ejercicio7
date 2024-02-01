@@ -23,8 +23,9 @@
 .departament{
   background: #8B0000;
   border-radius: 7px;
-  padding: 5px;
+  padding: 5px 10px;
   color: #fff;
+  font-weight: 700;
 }
 
 .box-shadow{
