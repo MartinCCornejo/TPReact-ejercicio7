@@ -4,7 +4,7 @@ import EmpleadoAvatar from "./EmpleadoAvatar";
 const EmpleadoRow = ({empleados}) => {
     console.log(empleados)
   return (
-    <ListGroup.Item className="box-shadow py-3 mb-4" >
+    <ListGroup.Item className="box-shadow py-4 mb-4" >
       <Row >
         <Col sm={4} className="mb-3 mb-sm-0">
           <EmpleadoAvatar empleados={empleados}></EmpleadoAvatar>
